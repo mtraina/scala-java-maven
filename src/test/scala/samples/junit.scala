@@ -1,17 +1,18 @@
 package samples
 
+import com.mtraina.{Book, Chapter}
 import org.junit._
 import Assert._
 
-@Test
+import scala.collection.JavaConverters._
+
 class AppTest {
 
     @Test
-    def testOK() = assertTrue(true)
-
-//    @Test
-//    def testKO() = assertTrue(false)
-
+    def testBook() = {
+        val book = new Book("test", List(Chapter("Chapter 3")).asJava)
+        assertEquals(book.getTitle, "test")
+    }
 }
 
 
