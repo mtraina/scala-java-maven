@@ -1,11 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mtraina</groupId>
   <artifactId>scala-java-maven</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>${project.artifactId}</name>
-  <description>My wonderfull scala app</description>
-  <inceptionYear>2015</inceptionYear>
+  <description>Scala and Java mixed</description>
+  <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>
       <name>My License</name>
@@ -45,8 +46,7 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>src/main/scala</sourceDirectory>
-    <testSourceDirectory>src/test/scala</testSourceDirectory>
+
     <plugins>
       <plugin>
         <!-- see http://davidb.github.com/scala-maven-plugin -->
